@@ -50,9 +50,9 @@ export default function SignIn() {
   return (
     <div style={rootDiv}>
       <img
-        src="https://media.geeksforgeeks.org/wp-content/uploads/20210318103632/gfg.png"
+        src="https://i.pinimg.com/736x/d6/d5/4f/d6d54f6e82c996cf2512d70f00bbb756.jpg"
         style={image}
-        alt="geeks"
+        alt="Grievences"
       />
       <input
         style={input}
@@ -68,7 +68,9 @@ export default function SignIn() {
         placeholder="Password"
         type="password"
       />
-      <button style={button} onClick={login}>
+      <button style={button}  onClick={() => {
+          navigate("/Home");
+        }}>
         {" "}
         Sign In
       </button>
@@ -117,8 +119,8 @@ const button = {
 };
 
 const image = {
-  width: 70,
-  height: 70,
+  width: 100,
+  height: 100,
   objectFit: "contain",
-  borderRadius: 70,
+  borderRadius: 40,
 };
