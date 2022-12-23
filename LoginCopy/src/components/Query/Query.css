@@ -1,0 +1,25 @@
+.Query-container{
+    width: 100vw;
+    /* background-color: antiquewhite; */
+    text-align: center;
+}
+.Querygenrator{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.query-text{
+    width: 100%;
+    background-color: antiquewhite;
+    height: 100px;
+    padding-top: 18px;
+    margin-bottom: 30px;
+    /* border-bottom: 2px solid black;
+    border-top: 2px solid black;*/
+} 
+.query-text h2{
+    font-size: 40px;
+}

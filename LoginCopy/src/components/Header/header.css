@@ -1,0 +1,44 @@
+.Headerbar-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    /* background-color: aqua; */
+}
+.header_left{
+    /* background-color: antiquewhite; */
+    width:50%;
+    height: 100%;
+    padding-left: 10vw;
+    padding-top: 4%;
+    
+}
+.header_right{
+    width:50%;
+    height: 100%;
+}
+.banner_text{
+    padding-left:0 ;
+    margin-bottom: 0;
+    padding-left: 10px;
+    font-size: 4rem;
+}
+.title {
+    padding-left:0 ;
+    margin-bottom: 0;
+    letter-spacing: 0.1em;
+    line-height: 50.4px;
+    font-weight: 800;
+    color: var(--colorNegro);
+    /* margin-bottom: 1.5rem; */
+}
+.help{
+    color: grey;
+    font-size: 20px;
+    /* padding-left: 10px; */
+}
+
+.header_right img{
+    padding-left: 5.5vw;
+}
